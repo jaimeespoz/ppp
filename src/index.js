@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// modulos
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "semantic-ui-css/semantic.min.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// paginas
+import { Rutas } from "./components/routes";
+
+// css
+import "../src/components/styles/Styles.scss";
+// import DetPre from "./views/presentacion/components/DetPre";
+// import DetSit from "./views/presentacion/components/DetSit";
+// import Explicame from "./views/explicame/Explicame";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Rutas />
+    {/* <DetPre /> */}
+    {/* <DetSit /> */}
+    {/* <Explicame />  <DetPre />*/} {/*<DetSit />*/}
+  </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

@@ -1,0 +1,14 @@
+.width-full{
+    width: 100%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    background: url(../../../images/icons/arrow-select.svg) 95% 21px no-repeat #fff;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}

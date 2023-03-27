@@ -1,0 +1,269 @@
+@import "../../../../../resources/assets/scss/fontawesome.scss";
+@import "../../../../../resources/assets/scss/solid.scss";
+@import "../../../../../resources/assets/scss/brands.scss";
+@import "../../../../../resources/assets/scss/regular.scss";
+
+$steal-blue: rgba(70, 120, 180, 1);
+
+.rrss {
+    flex: 0 0 100%;
+    color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.social-media-icon {
+    margin: 8px 8px 48px 8px;
+    // margin-right: 8px;
+    padding: 6px 4px 4px 4px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    text-align: center;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    a {
+        text-decoration: none;
+
+        .spany {
+            margin: 24px 2px 0px 2px;
+            // padding: 0px 6px;
+            color: white;
+            font: {
+                size: 10px;
+                weight: 100;
+            }
+            line-height: 105%;
+            display: block;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $steal-blue;
+    }
+}
+
+.blogger {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f37c";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.edge {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f26b";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.facebook {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f09a";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 24px;
+        }
+    }
+}
+
+.instagram {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f16d";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 24px;
+        }
+    }
+}
+
+.linkedin {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f08c";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.meta {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\e49b";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 20px;
+        }
+    }
+}
+
+.pinterest {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f0d2";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.reddit {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f1a1";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.skype {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f17e";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.telegram {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f2c6";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.tiktok {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\e07b";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.twitter {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f099";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}
+
+.whatsapp {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f232";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 24px;
+        }
+    }
+}
+
+.youtube {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f167";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 20px;
+        }
+    }
+}

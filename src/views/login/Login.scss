@@ -1,0 +1,135 @@
+$steal-blue: rgba(70, 120, 180, 1);
+$grey-light: rgba(72, 72, 72, 0.8);
+
+.login {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin: 0 8%;
+    padding: 24px 0;
+
+    .area-superior {
+        flex: 1 0 auto;
+        margin: 8px;
+
+        img {
+            height: 90px;
+            width: auto;
+        }
+    }
+
+    .area-central {
+        flex: 1 0 auto;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        align-items: center;
+
+        .seccion-left {
+            flex: 1 0 auto;
+            margin: 8px;
+            padding: 24px;
+
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+
+            .titulo {
+                font: {
+                    size: 1.8rem;
+                    weight: 300;
+                }
+                color: $steal-blue;
+            }
+
+            p {
+                font: {
+                    size: 0.85rem;
+                }
+                padding: 6px 0px;
+                text-align: justify;
+                color: rgba(72, 72, 72, 0.85);
+            }
+
+            .form {
+                padding: 12px 24px;
+
+                label {
+                    text-align: start;
+                }
+
+                input {
+                    width: 80%;
+                }
+            }
+
+            .opciones {
+                padding: 12px 24px;
+                display: block;
+            }
+
+            .registrarse {
+                text-decoration: none;
+                padding: 12px 0;
+                font: {
+                    size: 0.85rem;
+                }
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .seccion-center {
+            flex: 1 0 auto;
+            padding-top: 36px;
+
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+
+            img {
+                height: 280px;
+                width: auto;
+            }
+        }
+    }
+
+    .area-inferior {
+        flex: 1 0 auto;
+        // margin: 8px;
+        margin: 18px;
+        border-top: 1px solid $grey-light;
+        width: 80%;
+
+        p {
+            font: {
+                size: 0.65rem;
+            }
+            padding: 8px 0px;
+            text-align: justify;
+            color: rgba(72, 72, 72, 0.85);
+            line-height: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .login {
+        margin: 0;
+        .area-central {
+            padding-top: 18px;
+            .seccion-center {
+                img {
+                    height: 340px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}

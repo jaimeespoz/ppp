@@ -1,0 +1,149 @@
+{
+  "DetVinculos": [
+    {
+      "id_navbar": 60804,
+      "id": 1,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 2,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 3,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 4,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 5,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 6,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 7,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 8,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 9,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 10,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 11,
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    },
+    {
+      "id_navbar": 60804,
+      "id": 12,
+
+      "titulo": "Canal YouTube 1",
+      "opciones": [
+        { "codigo": 22, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 24, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 26, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 28, "descripcion": "Opcion 1", "path": "", "icono": "" },
+        { "codigo": 30, "descripcion": "Opcion 1", "path": "", "icono": "" }
+      ]
+    }
+  ]
+}

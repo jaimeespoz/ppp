@@ -1,0 +1,43 @@
+// .boton-generico2 {
+//     border: 1px solid var(--steal-blue);
+//     border-radius: 25px;
+//     padding: 8px 12px;
+//     align-items: center;
+//     background-color: var(--steal-blue);
+//     font-weight: 300;
+//     font-size: 0.8rem;
+//     color: var(--white);
+// }
+
+// .boton-generico2:hover {
+//     background-color: var(--grey);
+//     font-weight: 400;
+//     color: var(--white);
+// }
+
+$steal-blue: rgba(70, 120, 180, 1);
+$dell-blue: rgba(0, 133, 195, 1);
+$white: rgba(255, 255, 255, 1);
+$grey: rgba(72, 72, 72, 1);
+
+.boton-generico3 {
+    border: 1px solid $white;
+    border-radius: 8px;
+    margin: 6px 8px;
+    padding: 4px;
+    align-items: center;
+    background-color: $dell-blue;
+    font: {
+        weight: 300;
+        size: 0.65rem;
+    }
+    color: $white;
+
+    &:hover {
+        background-color: $steal-blue;
+        font: {
+            weight: 300;
+        }
+        color: $white;
+    }
+}

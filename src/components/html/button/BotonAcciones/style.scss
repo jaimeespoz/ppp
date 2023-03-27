@@ -1,0 +1,69 @@
+$steal-blue: rgba(70, 120, 180, 1);
+
+.boton-acciones {
+    flex: 0 0 100%;
+    color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.social-media-icon {
+    margin: 8px 8px 48px 8px;
+    // margin-right: 8px;
+    padding: 6px 4px 4px 4px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    text-align: center;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    a {
+        text-decoration: none;
+
+        .spany {
+            margin: 24px 2px 0px 2px;
+            // padding: 0px 6px;
+            color: white;
+            font: {
+                size: 10px;
+                weight: 100;
+            }
+            line-height: 105%;
+            display: block;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $steal-blue;
+    }
+}
+
+.blogger {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+    &::before {
+        content: "\f37c";
+        font: {
+            family: "Font Awesome 6 brands";
+            weight: 500;
+            size: 22px;
+        }
+    }
+}

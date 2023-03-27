@@ -1,0 +1,34 @@
+@import '../../../styles/variables';
+input:focus, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-control-plaintext{
+    line-height: 1 !important;
+}
+
+
+.strong{
+    font-weight: bold;
+}
+
+.label-ficha {
+
+    text-transform: inherit;
+    font-size: $baseFontSize;
+    margin: 0 !important;
+    font-family: $baseFont;
+    color: $colorDarkGrey;
+    font-weight: 700;
+
+}
+
+.input-ficha{
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space: nowrap;    
+}

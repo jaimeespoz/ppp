@@ -1,0 +1,90 @@
+$fondo: rgba(0, 133, 195, 1);
+$steal-blue: rgba(70, 120, 180, 1);
+$highlight: rgba(81, 203, 238, 1);
+$grey-light: rgba(72, 72, 72, 0.8);
+$textColor: #eee;
+$celeste: rgba(227, 241, 254, 0.8);
+$dark-blue: rgba(30, 96, 157, 1);
+
+.detsit {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    background-color: white;
+    margin: 24px 12px;
+    font: {
+        family: Roboto;
+    }
+
+    section {
+        flex: 1 0 100%;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        article {
+            flex: 1 0 160px;
+
+            max-width: 160px;
+            margin: 18px;
+            padding: 12px 12px;
+            border: {
+                top: 4px solid $dark-blue;
+                left: 1px solid $textColor;
+                right: 1px solid $textColor;
+                bottom: 1px solid $textColor;
+                radius: 8px;
+            }
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            }
+
+            p {
+                font: {
+                    size: 0.9rem;
+                    weight: 400;
+                }
+                text-align: justify;
+                padding: 12px 12px;
+                color: black;
+                line-height: 120%;
+            }
+            .recuadro {
+                // margin: 6px;
+                // padding: 24px;
+                // display: block;
+
+                ul {
+                    li {
+                        list-style: none;
+
+                        p {
+                            font: {
+                                size: 0.65rem;
+                                weight: 100;
+                            }
+                            text-align: justify;
+                            padding: 6px 12px;
+                            color: black;
+                            line-height: 120%;
+
+                            &:hover {
+                                border-radius: 4px;
+                                background-color: $celeste;
+                                color: blue;
+                                font: {
+                                    weight: 500;
+                                }
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

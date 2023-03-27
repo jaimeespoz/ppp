@@ -1,0 +1,70 @@
+$grey: rgba(72, 72, 72, 1);
+$white: rgba(255, 255, 255, 1);
+$steal-blue: rgba(70, 120, 180, 1);
+$dell-blue: rgba(0, 133, 195, 1);
+
+.tipo1 {
+    border: 1px solid $grey;
+    border-radius: 25px;
+    margin: 6px 8px;
+    padding: 8px 12px;
+    align-items: center;
+    background-color: inherit;
+    font: {
+        weight: 300;
+        size: 0.8rem;
+    }
+    color: $grey;
+
+    &:hover {
+        background-color: $grey;
+        font: {
+            weight: 400;
+        }
+        color: $white;
+    }
+}
+
+.tipo2 {
+    border: 1px solid $steal-blue;
+    border-radius: 25px;
+    margin: 6px 8px;
+    padding: 8px 12px;
+    align-items: center;
+    background-color: $steal-blue;
+    font: {
+        weight: 300;
+        size: 0.8rem;
+    }
+    color: $white;
+
+    &:hover {
+        background-color: $grey;
+        font: {
+            weight: 400;
+        }
+        color: $white;
+    }
+}
+
+.tipo3 {
+    border: 1px solid $white;
+    border-radius: 8px;
+    margin: 6px 8px;
+    padding: 4px;
+    align-items: center;
+    background-color: $dell-blue;
+    font: {
+        weight: 300;
+        size: 0.65rem;
+    }
+    color: $white;
+
+    &:hover {
+        background-color: $steal-blue;
+        font: {
+            weight: 300;
+        }
+        color: $white;
+    }
+}

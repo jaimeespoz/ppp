@@ -1,0 +1,164 @@
+.jea {
+    border: 1px solid red;
+}
+
+.pruebas {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+
+    .area-superior {
+        flex: 1 0 auto;
+        line-height: 110%;
+        margin: 8px;
+    }
+
+    .area-central {
+        flex: 1 0 auto;
+        line-height: 110%;
+        margin: 8px;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        align-items: center;
+
+        .seccion-left {
+            flex: 1 0 auto;
+            line-height: 110%;
+            margin: 8px;
+
+            display: flex;
+            flex-flow: column wrap;
+            // justify-content: center;
+            // align-content: space-evenly;
+            align-items: center;
+            // display: block;
+
+            p {
+                flex: 1 0 auto;
+                line-height: 110%;
+            }
+
+            .seccion-left-col {
+                flex: 1 0 auto;
+                line-height: 110%;
+                margin: 8px;
+
+                display: flex;
+                flex-flow: column wrap;
+                // justify-content: center;
+                // align-content: space-evenly;
+                align-items: center;
+                // display: block;
+
+                .parte-left {
+                    flex: 1 0 auto;
+                    line-height: 110%;
+
+                    p {
+                        line-height: 110%;
+                    }
+                }
+
+                .parte-center {
+                    flex: 1 0 auto;
+                    line-height: 110%;
+
+                    p {
+                        line-height: 110%;
+                    }
+                }
+
+                .parte-right {
+                    flex: 1 0 auto;
+                    line-height: 110%;
+
+                    p {
+                        line-height: 110%;
+                    }
+                }
+            }
+        }
+
+        .seccion-center {
+            flex: 1 0 auto;
+            line-height: 110%;
+            margin: 8px;
+
+            display: flex;
+            flex-flow: column wrap;
+            // justify-content: center;
+            // align-content: space-evenly;
+            align-items: center;
+            // display: inline-block;
+            // display: block;
+
+            p {
+                flex: 1 0 auto;
+                line-height: 110%;
+            }
+
+            .seccion-center-row {
+                flex: 1 0 auto;
+                line-height: 110%;
+                margin: 8px;
+
+                display: flex;
+                flex-flow: row wrap;
+                // justify-content: center;
+                // align-content: space-evenly;
+                align-items: center;
+                // display: inline-block;
+                // display: block;
+
+                .parte-left {
+                    flex: 1 0 auto;
+                    line-height: 110%;
+
+                    p {
+                        line-height: 110%;
+                    }
+                }
+
+                .parte-center {
+                    flex: 1 0 auto;
+                    line-height: 110%;
+
+                    p {
+                        line-height: 110%;
+                    }
+                }
+
+                .parte-right {
+                    flex: 1 0 auto;
+                    line-height: 110%;
+
+                    p {
+                        line-height: 110%;
+                    }
+                }
+            }
+        }
+
+        .seccion-right {
+            flex: 1 0 auto;
+            line-height: 110%;
+            margin: 8px;
+
+            p {
+                line-height: 110%;
+            }
+        }
+    }
+
+    .area-inferior {
+        flex: 1 0 auto;
+        line-height: 110%;
+        margin: 8px;
+        // display: block;
+    }
+}
