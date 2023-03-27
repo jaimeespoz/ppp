@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-// const routes = require("./routes/index");
+const routes = require("./routes/index");
 
 // settings
 app
@@ -24,17 +24,17 @@ app.use(async (req, res, next) => {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// routes
-// app.use(routes);
-
 // static files
 // app.use(express.static(path.join(__dirname, "public")));
-
 app.use(express.static(path.join(__dirname, "build")));
 
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+// routes
+// app.use(routes);
+app.use("/", routes);
+
+// app.get("/", function (req, res) {
+//   res.sendFile(path.join(__dirname, "build", "index.html"));
+// });
 
 // start the server
 app.listen(app.get("port"), () => {
