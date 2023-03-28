@@ -33,6 +33,18 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('./sw.js').then ((resp)=>{
+          console.warn("resp ",resp)
+        }).catch((e)=>{
+          console.error(e)
+        })
+      }
+      else{
+        console.log("sw not working")
+      }
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
